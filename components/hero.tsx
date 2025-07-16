@@ -134,7 +134,7 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.2, rotate: 5 }}
               whileTap={{ scale: 0.9 }}
-              href="mailto:joshua.pk@btech.christuniversity.in"
+              href="mailto:joshuakurian922@gmail.com"
               className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 cursor-pointer"
             >
               <Mail className="h-6 w-6" />
@@ -150,7 +150,7 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.2, rotate: 5 }}
               whileTap={{ scale: 0.9 }}
-              href="#"
+              href="https://www.linkedin.com/in/joshuapk/"
               className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 cursor-pointer"
             >
               <Linkedin className="h-6 w-6" />

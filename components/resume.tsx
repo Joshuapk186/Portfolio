@@ -16,8 +16,8 @@ const Resume = () => {
   const handleDownload = () => {
     // In a real application, this would download the actual resume PDF
     const link = document.createElement("a")
-    link.href = "/placeholder.pdf" // Replace with actual resume PDF path
-    link.download = "Joshua_PK_Kurian_Resume.pdf"
+    link.href = "/Resume.pdf" // Replace with actual resume PDF path
+    link.download = "Resume.pdf"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -55,7 +55,7 @@ const Resume = () => {
               <div className="p-6 space-y-6">
                 <div>
                   <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Contact</h4>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">joshua.pk@btech.christuniversity.in</p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">joshuakurian922@gmail.com</p>
                   <p className="text-sm text-gray-600 dark:text-gray-400">+91 9845128683</p>
                 </div>
 

@@ -81,8 +81,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "joshua.pk@btech.christuniversity.in",
-      href: "mailto:joshua.pk@btech.christuniversity.in",
+      value: "joshuakurian922@gmail.com",
+      href: "mailto:joshuakurian922@gmail.com",
     },
     {
       icon: Phone,
@@ -176,7 +176,7 @@ const Contact = () => {
                     key={platform}
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     whileTap={{ scale: 0.9 }}
-                    href="#"
+                    href="https://www.linkedin.com/in/joshuapk/"
                     className="w-10 h-10 bg-gray-200 dark:bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer"
                   >
                     <span className="text-sm font-medium">{platform.charAt(0)}</span>
